@@ -1,0 +1,8 @@
+.page>.content{
+    width: 100%;
+    position: absolute;
+    top: 44px;
+    bottom: 0px;
+    left: 0;
+    overflow: hidden;
+}

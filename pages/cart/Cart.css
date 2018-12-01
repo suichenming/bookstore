@@ -1,0 +1,27 @@
+#cart .bookItem{
+    display: flex;
+    padding: 20px 40px 20px 20px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+#cart .bookItem h4{
+    flex: 1;
+}
+#cart .bookItem p{
+    padding: 0 10px;
+}
+#cart .bookItem span{
+    width: 30px;
+    background: #ddd;
+    text-align: center;
+}
+#cart .bookItem b{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #999;
+}

@@ -1,0 +1,24 @@
+.category-menu .category-item{
+    background: #ddd;
+    line-height: 50px;
+    font-size: 16px;
+    color: #333;
+}
+.category-menu .category-item{
+    border-bottom: 1px solid #999;
+}
+.category-menu .category-title::after{
+    content: '>';
+    float: right;
+    padding-right: 20px;
+}
+.category-menu .category-sub-title{
+    line-height: 40px;
+    background: #eee;
+    font-size: 14px;
+    color: #333;
+    border-bottom: 1px dashed #999;
+}
+.category-menu .category-sub-title:last-of-type{
+    border: none;
+}

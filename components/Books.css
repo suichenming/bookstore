@@ -1,0 +1,54 @@
+.book-item{
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    padding: 8px;
+    text-decoration: none;
+    color: #333;
+}
+.book-item .book-logo{
+    width: 80px;
+}
+.book-item .book-logo img{
+    width: 100%;
+}
+.book-item .book-content{
+    margin-left: 10px;
+    flex: 1;
+    position: relative;
+}
+.book-item .book-content h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+.book-item .book-content p{
+    font-size: 14px;
+    color: #999;
+    padding-top: 10px;
+}
+.book-content .buy{
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+    width: 75px;
+    height: 32px;
+    background: mediumvioletred;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 32px;
+    color: #fff;
+    font-size: 24px;
+}
+.book-content .buy .badge{
+    font-size: 12px;
+    padding: 2px;
+    border-radius: 50%;
+    background: red;
+    height: 12px;
+    min-width: 12px;
+    line-height: 12px;
+    color: #fff;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+}
