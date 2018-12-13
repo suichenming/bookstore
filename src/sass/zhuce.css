@@ -1,0 +1,91 @@
+.zhuce {
+  height: 440px;
+  background: url(../img/gouwuche.jpg) 50%;
+}
+
+.zhuce .box_zhuce {
+  margin-top: 15px;
+  padding: 10px;
+  width: 400px;
+  height: 388px;
+  background: #fff;
+  position: absolute;
+  right: 10%;
+}
+
+.zhuce .box_zhuce ul {
+  height: 48px;
+  border-bottom: 1px solid #ccc;
+}
+
+.zhuce .box_zhuce ul li {
+  float: left;
+  line-height: 48px;
+  font-size: 16px;
+}
+
+.zhuce .box_zhuce ul li:nth-child(2) {
+  border-bottom: 1px solid #ff6a00;
+}
+
+.zhuce .box_zhuce ul li a {
+  padding: 13px 30px;
+  color: #737373;
+}
+
+.zhuce #shouji {
+  color: #ff6a00;
+  float: right;
+  line-height: 30px;
+  font-size: 16px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.zhuce #shouji:hover {
+  text-decoration: underline;
+}
+
+.zhuce .yanzheng {
+  float: left;
+  width: 304px;
+  height: 256px;
+  margin: 0 45px;
+}
+
+.zhuce .yanzheng input {
+  float: left;
+  margin: 5px 0;
+  width: 282px;
+  height: 18px;
+  padding: 10px;
+}
+
+.zhuce .yanzheng span {
+  display: inline-block;
+  margin: 5px 10px;
+  width: 77px;
+  height: 40px;
+  background: #ccc;
+  text-align: center;
+  color: #ff6a00;
+  font-size: 16px;
+  line-height: 40px;
+  font-style: oblique;
+}
+
+.zhuce .yanzheng #code {
+  width: 88px;
+  height: 18px;
+}
+
+.zhuce .yanzheng #btn1 {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  background: #ff6a00;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+}

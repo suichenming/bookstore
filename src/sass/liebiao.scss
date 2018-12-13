@@ -1,0 +1,90 @@
+#banner_top{
+    border-bottom: none;
+    height: 40px;
+    background: #fe7a24;
+    ul{
+        li{
+            cursor: pointer;
+            line-height: 40px;
+            padding: 0 30px;
+            &:hover{
+                background: red;
+            }
+            a{
+                color: #fff;
+                font-size: 16px;
+            }
+        }
+    }
+
+}
+#lb_img{
+   img{
+       width: 1200px;
+       height: 100%;
+   }
+}
+.lb_list{
+    border-bottom: 1px solid #000;
+    height: 40px;
+    width: 100%;
+    li{
+        line-height: 40px;
+        font-size: 16px;
+        padding: 0 40px;
+        float: left;
+        &:nth-child(1) a{
+            color: red;
+        }
+    }
+}
+.lb_item{
+    margin-top:10px;
+    height: 68px;
+    width: 100%;
+    background: #F5F5F5;
+    font-size: 16px;
+    li{
+        float: left;
+        line-height: 68px;
+        padding: 0 40px;
+        &:nth-child(1){
+            color: #767677;
+        }
+        &:nth-child(2) a{
+            color:#fe7a24;
+        }
+    }
+}
+.lb_so{
+    li{
+        padding: 0 7px;
+       float: left;
+        margin-top:10px;
+        cursor: pointer;
+        width: 285px;
+        height: 430px;
+        img{
+            width: 285px;
+            height: 311px;
+        }
+        &:hover{
+            box-shadow: -3px 3px 3px #ccc;
+        }
+        .lb_jiesao{
+            text-align: center;
+            p{
+                font-size: 14px;
+                color: red;
+            }
+            i{
+                line-height: 25px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            em{
+                font-size: 18px;
+            }
+        }
+    }
+}

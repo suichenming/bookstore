@@ -1,0 +1,17 @@
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img{
+	padding:0; margin:0;	
+}
+body { color:#333; font:12px/20px "微软雅黑","Arial Narrow",HELVETICA; background:#fff;}
+img,fieldset{ border:0;}
+a{ text-decoration:none; color:#333;}
+ul li{ list-style:none;}
+h1,h2,h3,h4,b,strong{ font-weight:normal;}
+em,i{ font-style:normal;}
+input{ outline:none;}
+table{border-collapse:collapse;border-spacing:0;}
+.clearfix:after{
+	content:"."; display:block; font-size:0; height:0; visibility:hidden; clear:both; overflow:hidden;
+}
+
+

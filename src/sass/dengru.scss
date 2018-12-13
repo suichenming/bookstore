@@ -1,0 +1,92 @@
+.zhuce{
+    
+    height: 440px;
+    background: url(../img/gouwuche.jpg) 50% ;
+    .box_zhuce{
+        margin-top:15px; 
+        padding: 10px;   
+        width: 400px;
+        height: 388px;
+        background: #fff;
+        position: absolute;
+        right: 10%;
+        ul{
+            height: 48px;
+            border-bottom: 1px solid #ccc;
+            li{
+                float: left;
+                line-height: 48px;
+                font-size: 16px;
+                &:nth-child(1){
+                    border-bottom: 1px solid #ff6a00;
+                }
+               a{
+                padding: 13px 30px;
+                color: #737373;
+               }
+            }
+        }
+    }
+    #shouji{
+        color: #ff6a00;
+       float: right;
+       line-height: 30px;
+      font-size: 16px;
+      margin-right: 50px;
+      margin-bottom: 10px;
+      &:hover{
+          text-decoration:underline;
+      }
+
+    }
+    .yanzheng{
+        float: left;
+        width: 304px;
+        height: 256px;
+        margin: 0 45px;
+        input{
+            float: left;
+            margin: 5px 0;
+            width: 282px;
+            height: 18px;
+            padding: 10px;
+            
+        }
+        #btn1{
+            border:none;
+            outline: none;
+            width: 100%;
+            height: 40px;
+            background: #ff6a00;
+            cursor: pointer;
+            color: #fff;
+            font-size: 16px;
+        }
+        #huoqu{
+            color: #ff6a00; 
+            float: right;
+            font-size: 16px;
+            margin-bottom:10px;
+        }
+        ul{
+            border: none;
+            li{
+            &:nth-child(1){
+                border-bottom: none;
+            }
+                a{
+                    font-size: 12px;
+                    padding: 0 10px;
+                    border-left: 1px solid #ccc;
+                &:hover{
+                    color: #ff6a00;
+                    text-decoration: underline;
+                }
+                }
+            }
+        }
+   
+    }
+
+   
+}
